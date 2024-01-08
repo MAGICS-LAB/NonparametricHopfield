@@ -1,4 +1,4 @@
-# On Sparse Modern Hopfield Model
+# Nonparametric Modern Hopfield Models
 This is the code of the paper Nonparametric Modern Hopfield Models. You can use this repo to reproduce the results of our method.
 
 ## Environmental Setup
