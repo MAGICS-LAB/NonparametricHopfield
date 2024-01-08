@@ -1,0 +1,14 @@
+{
+    "thr": 0.1,
+    "n_heads":1,
+    "d_model":784,
+    "update_steps":1,
+    "mode":"favor",
+    "favor_mode":"gaussian",
+    "scale":0.01,
+    "data":"mnist",
+    "mem_size":10,
+    "noise":0.1,
+    "prob":0.0,
+    "method":"half"
+}

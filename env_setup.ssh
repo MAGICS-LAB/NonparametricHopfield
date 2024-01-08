@@ -1,0 +1,11 @@
+pip3 install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+pip3 install -U "ray[tune]"
+pip3 install tqdm
+pip3 install scipy
+pip3 install -U scikit-learn
+pip3 install wandb
+cd sparse_hopfield/datasets/
+mkdir mil_datasets
+cd mil_datasets/
+wget http://www.cs.columbia.edu/~andrews/mil/data/MIL-Data-2002-Musk-Corel-Trec9-MATLAB.tgz
+tar zxvf ./MIL-Data-2002-Musk-Corel-Trec9-MATLAB.tgz

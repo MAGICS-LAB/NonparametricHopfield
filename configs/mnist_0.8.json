@@ -1,0 +1,21 @@
+{
+    "project name": "MNIST-MIL-Test",
+    "tgt_num":9, 
+    "bag_size":10, 
+    "train_size":1000,
+    "pos_per_bag":1,
+    "seed":1234,
+    "test_size":500,
+    "batch_size":64,
+    "d_model": 64,
+    "n_heads":4,
+    "update_steps":1,
+    "mode": "topk",
+    "scale": 0.1,
+    "lr": 1e-3,
+    "epoch": 300,
+    "prob":0.8,
+    "model":"pooling",
+    "input_size":784,
+    "num_pattern":10
+}
